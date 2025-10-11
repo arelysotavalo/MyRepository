@@ -1,2 +1,1 @@
-# MyRepository
-Personal Repository
+"This folder is only for HW" 

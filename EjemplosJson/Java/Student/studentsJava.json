@@ -1,0 +1,14 @@
+[
+  {
+    "studentId": 1,
+    "studentName": "Patricia",
+    "gradesList": [
+      20.0,
+      19.0,
+      20.0,
+      16.0,
+      10.0
+    ],
+    "averageGrade": 15.4
+  }
+]

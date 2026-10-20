@@ -29,7 +29,7 @@ MyRepository/
 │   ├── Espe.png          # Imagen institucional / logotipo
 │   ├── FotoPerfil.png    # Fotografía de perfil profesional
 │   ├── EURACE.png        # Insignia o imagen adicional del carrusel
-│   ├── Dockerfile        # Configuración para empaquetar la aplicación en Docker con Nginx
+│   ├── Docker            # Configuración para empaquetar la aplicación en Docker con Nginx
 │   └── README.md         # Documentación oficial del proyecto
 
 ```
@@ -62,7 +62,7 @@ docker build -t perfil-html-css .
 Una vez construida la imagen, lanzar el contenedor vinculando el puerto 8080 de la máquina anfitriona (host) con el puerto 80 del contenedor Nginx:
 
 ```bash
-docker run -d -p 8080:80 --name contenedor-perfil perfil-html-css
+docker run -d -p 8080:80 --name mi-contenedor perfil-html-css
 ```
 ### Verificación
 Abrir un navegador web e ingresar a la siguiente dirección para visualizar la página en funcionamiento:

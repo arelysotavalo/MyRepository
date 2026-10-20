@@ -1,11 +1,11 @@
 # Programacion Web 
 
-## Objetivo del proyecto
+## Objetivo del Proyecto
 Desarrollar y desplegar un sitio web de perfil profesional interactivo y responsivo usando HTML y CSS, aplicando buenas prácticas de maquetación web y creando contenedores en Docker de manera correcta.
 
 --------
 
-## Tecnologías utilizadas
+## Tecnologías Utilizadas
 * **Inteligencia Artificial (IA)**: Utilizada para el diseño y generación del mockup de alta fidelidad del sitio web.
 * **HTML5**: Estructuración semántica del contenido del sitio web.
 * **CSS**: Estilos personalizados y diseño general de la interfaz
@@ -15,7 +15,7 @@ Desarrollar y desplegar un sitio web de perfil profesional interactivo y respons
 
 --------
 
-##  Estructura del proyecto
+##  Estructura del Proyecto
 La estructura de directorios y archivos del proyecto se organiza de la siguiente manera:
 
 ```text
@@ -35,7 +35,7 @@ MyRepository/
 ```
 --------
 
-##  Instrucciones para construir y ejecutar la imagen Docker
+##  Instrucciones para Construir y Ejecutar la Imagen Docker
 Para desplegar este proyecto localmente utilizando la creación de contenedores con Docker y Nginx, se siguió los pasos a continuaión:
 
 ### 1. Requisitos previos
@@ -53,5 +53,8 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 ```
 ##  Enlace a Docker Hub
+
+https://hub.docker.com/repository/docker/arelysotavalo/programacionweb/general
+
 
 

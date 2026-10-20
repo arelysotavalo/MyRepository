@@ -21,6 +21,8 @@ La estructura de directorios y archivos del proyecto se organiza de la siguiente
 ```text
 MyRepository/
 │
+├── POO
+|
 ├── DesarrolloWeb/
 │   ├── index.html        # Página principal con la estructura semántica HTML5
 │   ├── estilos.css       # Hoja de estilos externa para el diseño y formato visual

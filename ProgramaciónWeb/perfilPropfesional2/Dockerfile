@@ -8,3 +8,5 @@ COPY Campus.png /usr/share/nginx/html/Campus.png
 COPY Espe.png /usr/share/nginx/html/Espe.png
 COPY FinvoryLogo.png /usr/share/nginx/html/FinvoryLogo.png
 COPY EURACE.png /usr/share/nginx/html/EURACE.png
+
+EXPOSE 80

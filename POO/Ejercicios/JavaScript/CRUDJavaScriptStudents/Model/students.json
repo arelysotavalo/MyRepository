@@ -1,0 +1,14 @@
+[
+    {
+        "student_id": 1,
+        "student_name": "Hugo",
+        "grades_list": [
+            14,
+            20,
+            18,
+            19.75,
+            20
+        ],
+        "average_grade": 18.35
+    }
+]

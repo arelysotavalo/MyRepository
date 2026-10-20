@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Hugo",
+        "hoursWorked": 12,
+        "totalPay": 66
+    },
+    {
+        "id": 2,
+        "name": "Sebastian",
+        "hoursWorked": 7,
+        "totalPay": 38.5
+    },
+    {
+        "id": 3,
+        "name": "Maria",
+        "hoursWorked": 8,
+        "totalPay": 44
+    }
+]

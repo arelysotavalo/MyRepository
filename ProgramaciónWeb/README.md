@@ -52,6 +52,25 @@ COPY . /usr/share/nginx/html
 
 EXPOSE 80
 ```
+### 3. Construir la imagen de Docker
+Abrir una terminal (PowerShell, CMD o Terminal) en la ruta raíz del proyecto donde se encuentra el archivo `Dockerfile` y ejecutar el siguiente comando para construir la imagen:
+
+```bash
+docker build -t perfil-html-css .
+```
+### Ejecución del Contenedor
+Una vez construida la imagen, lanzar el contenedor vinculando el puerto 8080 de la máquina anfitriona (host) con el puerto 80 del contenedor Nginx:
+
+```bash
+docker run -d -p 8080:80 --name contenedor-perfil perfil-html-css
+```
+### Verificación
+Abrir un navegador web e ingresar a la siguiente dirección para visualizar la página en funcionamiento:
+
+```bash
+http://localhost:8080
+```
+----
 ##  Enlace a Docker Hub
 
 https://hub.docker.com/repository/docker/arelysotavalo/programacionweb/general

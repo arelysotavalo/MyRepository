@@ -75,7 +75,8 @@ http://localhost:8080
 ----
 ##  Enlace a Docker Hub
 
-https://hub.docker.com/repository/docker/arelysotavalo/programacionweb/general
+https://hub.docker.com/r/arelysotavalo/programacionweb
+
 
 
 

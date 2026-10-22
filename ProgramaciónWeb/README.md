@@ -33,6 +33,8 @@ MyRepository/
 │   └── README.md         # Documentación oficial del proyecto
 
 ```
+
+Adicionalmente, en la codificación del archivo principal se implementaron las directrices de maquetación semántica de **HTML5**, utilizando etiquetas estructurales como `<header>`, `<nav>`, `<section>` y `<footer>`. Esto permite una mejor organización del contenido, facilita la accesibilidad y optimiza la lectura e interpretación del código fuente por parte de los navegadores y motores de búsqueda.
 --------
 
 ##  Instrucciones para Construir y Ejecutar la Imagen Docker

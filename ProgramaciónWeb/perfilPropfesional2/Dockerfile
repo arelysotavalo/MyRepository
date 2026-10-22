@@ -10,3 +10,4 @@ COPY FinvoryLogo.png /usr/share/nginx/html/FinvoryLogo.png
 COPY EURACE.png /usr/share/nginx/html/EURACE.png
 
 EXPOSE 80
+

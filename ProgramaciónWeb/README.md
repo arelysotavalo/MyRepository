@@ -77,6 +77,13 @@ http://localhost:8080
 
 https://hub.docker.com/r/arelysotavalo/programacionweb
 
+Instrucciones para Ejecutar Docker Hub 
+
+```bash
+docker push arelysotavalo/programacionweb:tagname
+
+docker run -d -p 8090:80 --name mi-sistema-web arelysotavalo/programacionweb:latest
+```
 
 
 
